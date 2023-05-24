@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "SeeingThroughFog"
+name = "seeing_through_fog"
 version = "1.0.0"
 authors = [
   { name="Nils Morbitzer" },
