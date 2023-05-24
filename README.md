@@ -12,7 +12,7 @@ We introduce a object detection benchmark in challenging adverse weather conditi
 
 
 
-<img src="./SeeingThroughFog/DatasetPicture.png"  width="500">
+<img src="./resources/DatasetPicture.png"  width="500">
 
 
 
@@ -21,15 +21,15 @@ We introduce a object detection benchmark in challenging adverse weather conditi
 
 ##### Real world recording in dense fog.
 
-<img src="./SeeingThroughFog/dense_fog.gif" width="500">
+<img src="./resources/dense_fog.gif" width="500">
 
 ##### Real world recording in heavy snowfall.
 
-<img src="./SeeingThroughFog/heavy_snowfall.gif" width="500">
+<img src="./resources/heavy_snowfall.gif" width="500">
 
 ##### Real world recording in snow dust.
 
-<img src="./SeeingThroughFog/snow_dust.gif" width="500">
+<img src="./resources/snow_dust.gif" width="500">
 
 
 ## Getting Started
@@ -149,7 +149,7 @@ For an initial reasoning about the dataset the DataViwer in tools/DatasetViewer/
 
 To total we have equipped a test vehicle with sensors covering the visible, mm-wave, NIR and FIR band, see Figure below. We measure intensity, depth and weather condition. For more information please refer to our dataset paper.
 
-<img src="./SeeingThroughFog/car_setup_daimler.png" width="500">
+<img src="./resources/car_setup_daimler.png" width="500">
 
 ### Labeling
 The final dataset provides about 12000 samples from an extensive data collection campaing with in total 1.4 mio samples. 
@@ -159,7 +159,7 @@ If PassengerCars, RidableVehicles and LargeVehicles can not be differentiated th
 Vehicle. In case Vehicle and Pedestrians can not be differentiated Objects are labeled as Obstacles. 
 Below you can find the illustrated LabelDefinition:
 
-<img src="./SeeingThroughFog/LabelDefinition.png" width="500">
+<img src="./resources/LabelDefinition.png" width="500">
 
 The Annotation format follows the well known [Kitti Format](http://www.cvlibs.net/datasets/kitti/)
 with added coloums for 3d Box Rotation angles. You can find the loading functionalities in 
@@ -178,7 +178,7 @@ Recomended data splits can be found in
 ### Tools
 Tools can be found in 
 ```
-"./SeeingThroughFog/tools/".
+"./SeeingThroughFog/".
 ```
 The tools help to viszualize the dataset (DatasetViewer), create a TFRecords dataset (CreateTFRecords), 
 create simple fog simulations for lidar and rgb data
