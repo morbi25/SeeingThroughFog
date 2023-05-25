@@ -2,8 +2,8 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 import os
-from tools.CreateTFRecords.generic_tf_tools.resize import resize
-from tools.ProjectionTools.Gated2RGB.lib.image_transformer import ImageTransformer
+from seeing_through_fog.CreateTFRecords.generic_tf_tools.resize import resize
+from seeing_through_fog.ProjectionTools.Gated2RGB.lib.image_transformer import ImageTransformer
 # You need to import the resize class from the first Calib read and projection tools.
 import json
 

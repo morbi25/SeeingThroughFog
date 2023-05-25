@@ -1,5 +1,5 @@
-from tools.ProjectionTools.Sweden2KittiCalib.lib.utils import  export_as_kitti_calib
-from tools.DatasetViewer.lib.read import load_calib_data
+from seeing_through_fog.ProjectionTools.Sweden2KittiCalib.lib.utils import  export_as_kitti_calib
+from seeing_through_fog.DatasetViewer.lib.read import load_calib_data
 import argparse
 import numpy as np
 

@@ -1,6 +1,6 @@
-from tools.DatasetViewer.lib.read import load_radar_points
-from tools.DatasetViewer.lib.read import load_calib_data
-from tools.ProjectionTools.Lidar2RGB.lib.visi import plot_image_projection
+from seeing_through_fog.DatasetViewer.lib.read import load_radar_points
+from seeing_through_fog.DatasetViewer.lib.read import load_calib_data
+from seeing_through_fog.ProjectionTools.Lidar2RGB.lib.visi import plot_image_projection
 
 # import cv2
 import numpy as np

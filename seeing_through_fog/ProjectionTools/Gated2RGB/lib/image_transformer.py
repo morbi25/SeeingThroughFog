@@ -8,8 +8,8 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-from tools.ProjectionTools.Gated2RGB.lib.camera_model import CameraModel
-from tools.ProjectionTools.Gated2RGB.lib.data_loader import load_image
+from seeing_through_fog.ProjectionTools.Gated2RGB.lib.camera_model import CameraModel
+from seeing_through_fog.ProjectionTools.Gated2RGB.lib.data_loader import load_image
 from scipy.interpolate import NearestNDInterpolator
 
 def load_sweden_calib_data(tf_tree, target='cam_stereo_left_optical', source='bwv_cam_optical'):

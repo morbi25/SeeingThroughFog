@@ -1,10 +1,10 @@
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-from tools.ProjectionTools.Lidar2RGB.lib.utils import project_pointcloud
-from tools.ProjectionTools.Lidar2RGB.lib.utils import transform_coordinates
+from seeing_through_fog.ProjectionTools.Lidar2RGB.lib.utils import project_pointcloud
+from seeing_through_fog.ProjectionTools.Lidar2RGB.lib.utils import transform_coordinates
 import numpy as np
-from tools.CreateTFRecords.generic_tf_tools.resize import resize
+from seeing_through_fog.CreateTFRecords.generic_tf_tools.resize import resize
 
 
 def plot_spherical_scatter_plot(pointlcoud, pattern='hot', plot_show=True, title=None):
